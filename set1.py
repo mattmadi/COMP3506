@@ -24,10 +24,10 @@ def q3(n):
     stopper = x*x
     while(stopper<n):
         if(q2(n, x) == 0):
-            return true
+            return false
         x += 1
         stopper = x*x
-    return false
+    return true
 
 #Find out m^n where n=2^x where x is an integer
 def q4(n, m):
