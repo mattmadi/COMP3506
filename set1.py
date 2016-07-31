@@ -39,7 +39,8 @@ def q4(n, m):
     return x*x
 
 """
-
+This works by iterating through the unsorted list, and searching
+for each element in the sorted list using binary search
 """
 #Find out if a there is an element in a sorted list that is an element
 #of an unsorted list
